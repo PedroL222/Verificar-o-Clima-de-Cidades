@@ -1,5 +1,5 @@
-const apiKey  = "49050ad420990079f7e93bba37de42d2";
-// Não roubem minha chave de API fazendo favor!
+const apiKey  = "";
+// Chave da API
 const apiCountryURL = "https://countryflagsapi.com/png/";
 
 const cityInput = document.querySelector("#city_input");
