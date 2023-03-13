@@ -1,4 +1,6 @@
-const apiKey  = "";
+import senhaApi from "./senhaApi";
+
+const apiKey  = senhaApi;
 // Chave da API
 const apiCountryURL = "https://countryflagsapi.com/png/";
 
