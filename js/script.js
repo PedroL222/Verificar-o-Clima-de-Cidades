@@ -1,7 +1,6 @@
 const apiKey  = "49050ad420990079f7e93bba37de42d2";
 // Chave da API
-const apiCountryURL = "https://countryflagsapi.com/png/";
-
+const apiCountryURL = "https://flagsapi.com/"
 const cityInput = document.querySelector("#city_input");
 const searchBtn = document.querySelector("#search");
 
@@ -36,7 +35,7 @@ const showWeatherData = async (city)=>{
 
    weatherIconElement.setAttribute("src", `http://openweathermap.org/img/wn/${data.weather[0].icon}.png`);
 
-   countryElement.setAttribute("src", apiCountryURL + data.sys.country);
+   countryElement.setAttribute("src", apiCountryURL + data.sys.country + "/flat/64.png");
 
    umidityElement.innerText = `${data.main.humidity}%`;
 
